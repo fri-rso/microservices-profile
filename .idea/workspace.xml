@@ -2,64 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c382800-10f2-4a39-a281-4603ee01c48a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_config_kumuluzee_config_common_1_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_config_kumuluzee_config_etcd_1_1_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_logs_kumuluzee_logs_log4j2_1_4_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_metrics_kumuluzee_metrics_core_1_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_17_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jcl_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_metrics_microprofile_metrics_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mousio_etcd4j_2_14_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_annotation_versioning_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profile/target/classes/com/kumuluz/ee/samples/microservices/simple/ProfileResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profile/target/classes/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/microservices-profile-models-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/models/target/microservices-profile-models-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-cdi-weld-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-cdi-weld-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-common-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-common-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-core-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-core-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-jax-rs-jersey-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-jax-rs-jersey-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-jpa-common-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-jpa-common-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-jpa-eclipselink-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-jpa-eclipselink-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-json-p-jsonp-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-json-p-jsonp-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-microProfile-1.0-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-microProfile-1.0-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-servlet-jetty-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/kumuluzee-servlet-jetty-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/lib/microservices-profile-models-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/classes/lib/microservices-profile-models-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/microservices-profile-api-2.5.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/profile/target/microservices-profile-api-2.5.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/microservices-profile-api-2.5.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/profile/target/microservices-profile-api-2.5.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_cdi_weld_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_cdi_weld_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_common_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_common_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_core_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_core_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_jax_rs_jersey_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_jax_rs_jersey_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_jpa_common_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_jpa_common_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_jpa_eclipselink_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_jpa_eclipselink_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_json_p_jsonp_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_json_p_jsonp_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_microProfile_1_0_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_microProfile_1_0_2_5_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_servlet_jetty_2_5_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kumuluz_ee_kumuluzee_servlet_jetty_2_5_0_SNAPSHOT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/com/kumuluz/ee/samples/microservices/simple/models/Profile.java" afterPath="$PROJECT_DIR$/models/src/main/java/com/kumuluz/ee/samples/microservices/simple/models/Profile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/models/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/microservices-profile-api.iml" afterPath="$PROJECT_DIR$/profile/microservices-profile-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/pom.xml" afterPath="$PROJECT_DIR$/profile/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileResource.java" afterPath="$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile.microservices-profile" afterPath="$PROJECT_DIR$/Dockerfile.microservices-profile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/profile/src/main/resources/config.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile/target/classes/config.yaml" afterPath="$PROJECT_DIR$/profile/target/classes/config.yaml" />
     </list>
@@ -76,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ProfileResource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProfileResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state relative-caret-position="88">
+              <caret line="52" column="50" lean-forward="true" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +35,8 @@
       <file leaf-file-name="ProfileProperties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#526#527#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
@@ -119,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -176,8 +120,8 @@
         <option value="$PROJECT_DIR$/models/src/main/java/com/kumuluz/ee/samples/microservices/simple/models/Profile.java" />
         <option value="$PROJECT_DIR$/profile/pom.xml" />
         <option value="$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileProperties.java" />
-        <option value="$PROJECT_DIR$/profile/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileResource.java" />
+        <option value="$PROJECT_DIR$/profile/src/main/resources/config.yaml" />
       </list>
     </option>
   </component>
@@ -436,16 +380,15 @@
       <workItem from="1511280155300" duration="4000" />
       <workItem from="1513115427791" duration="1534000" />
       <workItem from="1513156080523" duration="3638000" />
-      <workItem from="1513161775797" duration="20520000" />
+      <workItem from="1513161775797" duration="21917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33143000" />
+    <option name="totallyTimeSpent" value="34540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -635,10 +578,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="52" column="50" lean-forward="true" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#526#527#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
@@ -666,19 +619,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profile/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile/src/main/java/com/kumuluz/ee/samples/microservices/simple/ProfileResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
