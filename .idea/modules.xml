@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/profile/microservices-profile-api.iml" filepath="$PROJECT_DIR$/profile/microservices-profile-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/microservices-profile-models.iml" filepath="$PROJECT_DIR$/models/microservices-profile-models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-profiles.iml" filepath="$PROJECT_DIR$/microservices-profiles.iml" />
+    </modules>
+  </component>
+</project>
