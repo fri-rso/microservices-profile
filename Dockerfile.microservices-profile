@@ -6,6 +6,6 @@ WORKDIR /app
 
 ADD $TRAVIS_BUILD_DIR/profile/target/microservices-profile-api-2.5.0-SNAPSHOT.jar /app
 
-EXPOSE 8085
+EXPOSE 8080
 
 CMD ["java", "-jar", "/app/microservices-profile-api-2.5.0-SNAPSHOT.jar"]
