@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kumuluz.ee.logs:kumuluzee-logs-common:1.4.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/logs/kumuluzee-logs-common/1.4.0-SNAPSHOT/kumuluzee-logs-common-1.4.0-20170918.111545-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/logs/kumuluzee-logs-common/1.4.0-SNAPSHOT/kumuluzee-logs-common-1.4.0-20170918.111545-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/logs/kumuluzee-logs-common/1.4.0-SNAPSHOT/kumuluzee-logs-common-1.4.0-20170918.111545-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
