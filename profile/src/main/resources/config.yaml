@@ -10,13 +10,16 @@ kumuluzee:
                      <Configuration name="profiles">
                         <Appenders>
                             <Console name="console" target="SYSTEM_OUT">
-                                <PatternLayout pattern="%d %p %marker %m %X %ex %n"/>
+                                <PatternLayout pattern="%d %p %marker %m %X %ex %n [%t] %-5level %logger{36} - %msg%n"/>
                             </Console>
-                             <Socket name="socket" host="0b624eb9-4830-45fa-bd94-6c828d54e71c-ls.logit.io" port="23073">
+                             <Socket name="socket" host="44916925-667e-4e76-bedd-35b8f3ad673a-ls.logit.io" port="14178">
                                   <JsonLayout properties="true"/>
                                 </Socket>
                         </Appenders>
                         <Loggers>
+                            <Logger name="com.kumuluz.ee.samples.microservices.simple.ProfileResource" level="trace">
+                              <AppenderRef ref="Console"/>
+                            </Logger>
                             <!-- Default logger -->
                             <Root level="info">
                                 <AppenderRef ref="console"/>

@@ -6,9 +6,12 @@ import com.kumuluz.ee.logs.cdi.Log;
 import com.kumuluz.ee.metrics.producers.MetricRegistryProducer;
 import com.kumuluz.ee.samples.microservices.simple.models.Profile;
 import org.eclipse.microprofile.metrics.Counter;
+import org.eclipse.microprofile.metrics.Histogram;
 import org.eclipse.microprofile.metrics.MetricRegistry;
 import org.eclipse.microprofile.metrics.annotation.Counted;
 import org.eclipse.microprofile.metrics.annotation.Metered;
+import org.eclipse.microprofile.metrics.annotation.Metric;
+import org.eclipse.microprofile.metrics.annotation.Timed;
 
 
 import javax.enterprise.context.RequestScoped;
@@ -37,15 +40,19 @@ public class ProfileResource {
     /**
      * Vrne seznam vseh profilov
      * */
+    @Inject
+    @Metric(name = "histogram_dodanih")
+    Histogram histogram;
 
     @GET
-    @Metered(name = "simple_meter")
+    @Metered(name = "getProfiles_meter")
     public Response getProfiles() {
-
+        LOG.trace("getProfiles ENTRY");
         TypedQuery<Profile> query = em.createNamedQuery("Profile.findAll", Profile.class);
 
         List<Profile> profiles = query.getResultList();
-        LOG.info("List of profiles: {}", profiles);
+        histogram.update(profiles.size());
+        LOG.info("Stevilo vseh profilov: {}", profiles.size());
         return Response.ok(profiles).build();
     }
 
@@ -55,15 +62,16 @@ public class ProfileResource {
 
     @GET
     @Path("/{id}")
+    @Timed(name = "getProfile_timer")
     public Response getProfile(@PathParam("id") Integer id) {
-        LOG.trace("BLABLABLABLA");
+        LOG.trace("getProfile ENTRY");
         Profile p = em.find(Profile.class, id);
 
         if (p == null) {
             return Response.status(Response.Status.NOT_FOUND).build();
 
         }
-        LOG.info("Profile search: {}", p);
+        LOG.info("Prikazan profil ID: {}", p.getId());
         return Response.ok(p).build();
     }
 
@@ -73,7 +81,7 @@ public class ProfileResource {
     @POST
     @Path("/{id}")
     public Response editProfile(@PathParam("id") Integer id, Profile profile) {
-
+        LOG.trace("editProfile ENTRY");
         Profile p = em.find(Profile.class, id);
 
         if (p == null)
@@ -92,7 +100,7 @@ public class ProfileResource {
         em.persist(p);
 
         em.getTransaction().commit();
-        LOG.trace("uspesno posodobljeno");
+        LOG.info("Urejen profil ID: {}", p.getId());
         return Response.status(Response.Status.CREATED).entity(p).build();
     }
 
@@ -101,7 +109,7 @@ public class ProfileResource {
      */
     @POST
     public Response createProfile(Profile p) {
-
+        LOG.trace("createProfile ENTRY");
         p.setId(null);
 
         em.getTransaction().begin();
@@ -109,7 +117,7 @@ public class ProfileResource {
         em.persist(p);
 
         em.getTransaction().commit();
-
+        LOG.info("Create profile ID: {}", p.getId());
         return Response.status(Response.Status.CREATED).entity(p).build();
     }
 
@@ -123,12 +131,13 @@ public class ProfileResource {
     @GET
     @Path("/config")
     public Response test() {
+        LOG.trace("config ENTRY");
         String response =
                 "{" +
                         "\"jndi-name\": \"%s\"," +
-                        "\"connection-url\": %s," +
-                        "\"username\": %s," +
-                        "\"password\": %s," +
+                        "\"connection-url\": \"%s\"," +
+                        "\"username\": \"%s\"," +
+                        "\"password\": \"%s\"," +
                         "\"max-pool-size\": %d" +
                         "}";
 
@@ -140,7 +149,7 @@ public class ProfileResource {
                 properties.getPassword(),
                 properties.getMaxPoolSize()
                 );
-
+        LOG.trace("config uspesen EXIT");
         return Response.ok(response).build();
     }
 }
