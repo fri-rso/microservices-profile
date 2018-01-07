@@ -7,7 +7,7 @@
 - [ ] HealthCheck (vsaj dve kontroli zdravja, API za preverjanje zdravja vrača ustrezne HTTP status kode, 
   da bo skladen s Kubernetes Liveness Probes, v Kubernetes Deployments dodajte Liveness Probes, 
   simulirajte bolno storitev in opazujte ali jo Kubernetes zažene na novo) 
-- [ ] Metrics (storitvam dodajte končno točko na kateri izpostavite nekaj metrik)
+- [x] Metrics (storitvam dodajte končno točko na kateri izpostavite nekaj metrik)
 - [x] Dnevniške datoteke (pošiljanje logov na logit.io, dodajanje konteksta logom(ime storitve, verzija, okolje…),
   beležite vhode iz izhode v storitve, **pripravite tri zanimive poizvedbe dnevnikov 
   (npr. izpis vseh vstopov v določeno metodo)**
