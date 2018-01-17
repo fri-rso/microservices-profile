@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.kumuluz.ee:kumuluzee-core:2.5.0-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/kumuluzee-core/2.5.0-SNAPSHOT/kumuluzee-core-2.5.0-20171120.145430-24.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/kumuluzee-core/2.5.0-SNAPSHOT/kumuluzee-core-2.5.0-20171221.115704-36.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/kumuluzee-core/2.5.0-SNAPSHOT/kumuluzee-core-2.5.0-20171120.145430-24-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/kumuluzee-core/2.5.0-SNAPSHOT/kumuluzee-core-2.5.0-20171221.115704-36-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/kumuluzee-core/2.5.0-SNAPSHOT/kumuluzee-core-2.5.0-20171120.145430-24-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/kumuluzee-core/2.5.0-SNAPSHOT/kumuluzee-core-2.5.0-20171221.115704-36-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

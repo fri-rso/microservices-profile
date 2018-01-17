@@ -29,10 +29,9 @@ import java.util.List;
 @RequestScoped
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-
+@Log
 public class ProfileResource {
 
-    private static final Logger LOG = LogManager.getLogger(ProfileResource.class.getName());
 
     @PersistenceContext
     private EntityManager em;
@@ -47,12 +46,10 @@ public class ProfileResource {
     @GET
     @Metered(name = "getProfiles_meter")
     public Response getProfiles() {
-        LOG.trace("getProfiles ENTRY");
         TypedQuery<Profile> query = em.createNamedQuery("Profile.findAll", Profile.class);
 
         List<Profile> profiles = query.getResultList();
         histogram.update(profiles.size());
-        LOG.info("Stevilo vseh profilov: {}", profiles.size());
         return Response.ok(profiles).build();
     }
 
@@ -64,14 +61,12 @@ public class ProfileResource {
     @Path("/{id}")
     @Timed(name = "getProfile_timer")
     public Response getProfile(@PathParam("id") Integer id) {
-        LOG.trace("getProfile ENTRY");
         Profile p = em.find(Profile.class, id);
 
         if (p == null) {
             return Response.status(Response.Status.NOT_FOUND).build();
 
         }
-        LOG.info("Prikazan profil ID: {}", p.getId());
         return Response.ok(p).build();
     }
 
@@ -81,7 +76,6 @@ public class ProfileResource {
     @POST
     @Path("/{id}")
     public Response editProfile(@PathParam("id") Integer id, Profile profile) {
-        LOG.trace("editProfile ENTRY");
         Profile p = em.find(Profile.class, id);
 
         if (p == null)
@@ -100,7 +94,6 @@ public class ProfileResource {
         em.persist(p);
 
         em.getTransaction().commit();
-        LOG.info("Urejen profil ID: {}", p.getId());
         return Response.status(Response.Status.CREATED).entity(p).build();
     }
 
@@ -109,7 +102,6 @@ public class ProfileResource {
      */
     @POST
     public Response createProfile(Profile p) {
-        LOG.trace("createProfile ENTRY");
         p.setId(null);
 
         em.getTransaction().begin();
@@ -117,7 +109,6 @@ public class ProfileResource {
         em.persist(p);
 
         em.getTransaction().commit();
-        LOG.info("Create profile ID: {}", p.getId());
         return Response.status(Response.Status.CREATED).entity(p).build();
     }
 
@@ -131,7 +122,6 @@ public class ProfileResource {
     @GET
     @Path("/config")
     public Response test() {
-        LOG.trace("config ENTRY");
         String response =
                 "{" +
                         "\"jndi-name\": \"%s\"," +
@@ -149,7 +139,6 @@ public class ProfileResource {
                 properties.getPassword(),
                 properties.getMaxPoolSize()
                 );
-        LOG.trace("config uspesen EXIT");
         return Response.ok(response).build();
     }
 }

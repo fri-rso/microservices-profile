@@ -8,22 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservices-profile-api" />
         <module name="microservices-profile-models" />
-        <module name="microservices-service-api" />
-        <module name="microservices-service-models" />
-        <module name="microservices-simple-catalogue" />
-        <module name="microservices-simple-models" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservices-profile-api" target="1.8" />
       <module name="microservices-profile-models" target="1.8" />
       <module name="microservices-profiles" target="1.8" />
-      <module name="microservices-service-api" target="1.8" />
-      <module name="microservices-service-models" target="1.8" />
-      <module name="microservices-services" target="1.8" />
-      <module name="microservices-simple" target="1.5" />
-      <module name="microservices-simple-catalogue" target="1.8" />
-      <module name="microservices-simple-models" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
