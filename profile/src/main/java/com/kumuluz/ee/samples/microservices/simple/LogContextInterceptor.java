@@ -1,6 +1,5 @@
 package com.kumuluz.ee.samples.microservices.simple;
 
-import com.kumuluz.ee.common.config.EeConfig;
 import com.kumuluz.ee.common.runtime.EeRuntime;
 import com.kumuluz.ee.configuration.utils.ConfigurationUtil;
 import com.kumuluz.ee.logs.cdi.Log;
